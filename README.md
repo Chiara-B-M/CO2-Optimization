@@ -15,6 +15,8 @@
 
 ## Business Use Case
 
+Context: In recent years, the aviation industry has faced increasing pressure to reduce its environmental impact, particularly in terms of **carbon emissions**. Airlines are exploring ways to reduce their **CO2 footprint** as governments, regulatory bodies, and environmentally conscious customers demand more sustainable air travel. With **Sustainable Aviation Fuel (SAF)** emerging as a potential alternative to traditional **Jet A-1 fuel**, there is growing interest in optimizing its usage to minimize CO2 emissions without compromising on fuel efficiency or increasing operational costs.
+
 In this project, we aim to build a machine learning model to predict **CO2 emissions** for flights based on various factors such as distance, fuel consumption, altitude, etc. The project is particularly relevant in the context of exploring the use of **Sustainable Aviation Fuel (SAF)** and traditional **Jet A-1 fuel** to estimate how emissions can be reduced over different flight routes. The ultimate goal is to optimize the ratio of SAF to Jet A-1 fuel to lower CO2 emissions while maintaining performance.
 
 
@@ -23,7 +25,6 @@ In this project, we aim to build a machine learning model to predict **CO2 emiss
 The dataset used in this project contains approximately **2000-3000 flight records**, with the following key features:
 
 - **Distance (km)**: The distance traveled by the flight.
-- **Duration (hours)**: The total flight time.
 - **Cruising Altitude (ft)**: The altitude at which the flight operates.
 - **Wind Speed (km/h)**: Wind speed during the flight.
 - **Fuel Consumption (liters)**: The amount of fuel consumed by the flight.
