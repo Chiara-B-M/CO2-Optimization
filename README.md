@@ -46,7 +46,6 @@ The dataset used in this project contains approximately **2000-3000 flight recor
 For the baseline model, we used the following features:
 
 - Distance (km)
-- Duration (hours)
 - Cruising Altitude (ft)
 - Wind Speed (km/h)
 - Fuel Consumption (liters)
@@ -89,10 +88,10 @@ After training and testing these models, we compared the results:
 
 | Model             | RMSE (Test)  | Cross-Validation RMSE |
 |-------------------|--------------|-----------------------|
-| Ridge Regression   | 0.168        | 0.176                 |
-| Random Forest      | 0.165        | 0.173                 |
-| Gradient Boosting  | 0.163        | 0.171                 |
-| XGBoost            | 0.162        | 0.170                 |
+| Ridge Regression  | 0.168        | 0.176                 |
+| Random Forest     | 0.165        | 0.173                 |
+| Gradient Boosting | 0.163        | 0.171                 |
+| XGBoost           | 0.162        | 0.170                 |
 
 The **XGBoost model** showed the best performance with an **RMSE of 0.162** on the test set and **0.170** across cross-validation folds. This improvement came from the ability of tree-based models to capture non-linear relationships that were missed by the linear Ridge Regression model.
 
